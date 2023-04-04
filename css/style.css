@@ -1,0 +1,134 @@
+html{
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+*{
+  box-sizing: border-box;
+
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+nav{
+  margin-right: 50px;
+ 
+}
+
+ul{
+  display: flex;
+  gap: 5rem;
+  list-style: none;
+  margin-left: 30px;
+  font-size: 1.6rem;
+  
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+main{
+  margin-top: 6rem;
+  display: flex;
+}
+
+.left-col{
+  width: 45%;
+
+}
+h1{
+  font-size: 52px;
+  font-family: 'Playfair Display', serif;
+  margin: 2rem;
+  font-weight: normal;
+}
+.left-col p{
+  font-size: 18px;
+}
+.collection{
+  display: flex;
+  justify-items: center;
+  margin: 40px 0;
+}
+.collection #browse{
+  font-size: 18px;
+  margin-right: 50px;
+  background: #F2F0DF;
+  border-radius: 19px;
+  font-weight: bold;
+}
+.collection a{
+  padding: 14px 25px;
+  font-size: 16px;
+}
+.left-btm{
+  display: flex;
+  align-items: center;
+  gap: 6rem;
+  padding: 2rem;
+  border: 1px solid black;
+  border-radius: 19px;
+  height: 174px;
+  width: 494px;
+}
+
+.left-btm .employee{
+  font-size: 33px;
+  margin: 6px;
+}
+.left-btm p{
+  font-size: 16px;
+  margin: 6px;
+}
+
+.right-col{
+  height: 535px;
+  display: flex;
+  flex-grow: 1;
+  
+}
+
+.first-cont{
+  width: 45%;
+  height: 100%;
+  background: url(../images/clothing1.jpg);
+  background-size: cover;
+  border-radius: 19px;
+  margin: 20px;
+
+}
+
+.second-cont{
+  
+  width: 45%;
+  height: 100%;
+  margin: 20px;
+  
+}
+.second-cont div{
+  width: 100%;
+  height: 50%;
+  border-radius: 19px;
+  margin: ;
+}
+.second-ist{
+  background: url(../images/clothing2.jpg);
+  background-size: cover;
+}
+.second-second{
+  background: url(../images/clothing3.jpg);
+  background-size: cover;
+}
+.details{
+  display: flex;
+  align-items: end;
+  
+}
